@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./CSS/chat.css" />
+</head>
+<body>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="./WebSocketManager.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="container">
+        
+        <br />
+        <br />
+
+        <div class="row">
+            <div class="col-md-6">
+                <nav aria-label="breadcrumb">
+                    <input type="text" class="form-control" id="fieldUser">
+                </nav>
+            </div>
+
+            <br />
+            <br />
+            <br />
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading" id="accordion">
+                        <span class="glyphicon glyphicon-comment"></span> Chat
+                        <div class="btn-group pull-right">
+                            <a type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                <span class="glyphicon glyphicon-chevron-down"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="panel-collapse collapse" id="collapseOne">
+                        <div class="panel-body">
+                            <ul class="chat" id="messages">
+                            </ul>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="input-group">
+                                <input id="textInput" type="text" class="form-control input-sm" placeholder="Digite sua mensagem aqui..." />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="sendButton">
+                                        Send
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-danger" onclick="Exit()">Sair do Chat</button>
+        </div>
+    </div>
+
+
+
+
+    <script language="javascript" type="text/javascript">var connection = new WebSocketManager("ws://" + location.host + "/chat");
+
+
+        var res = window.location.href.split('?');
+        var userName = "";
+
+        if (res[1] === undefined) {
+            alert('Usuário não encontrado.');
+        }
+        else {
+            var parm = res[1].split('&')[0].split(':');
+            if (parm[0] != 'user') {
+                alert('Usuário não encontrado.');
+            }
+            else {
+                userName = parm[1];
+            }
+        }
+
+
+        // optional.
+        // called when the connection has been established together with your id.
+        connection.onConnected = (id) => {
+            appendItem(list, "Id da conexão: " + connection.id + "|" + userName + "|-> Agora você está conectado! ");
+
+            // let's call a method on the server with return value.
+            // if you pass 0 for either int it will cause a remote exception.
+            connection.invoke('DoMath', 'int', 5, 'int', 4, (result, error) => {
+                if (result) console.log("The server's DoMath returned: " + result);
+                if (error) console.error("The server's DoMath errored: " + error);
+            });
+        };
+
+        // optional.
+        // called when the connection to the server has been lost.
+        connection.onDisconnected = () => {
+            appendItem(list, "|" + userName + "|-> Desconectado!");
+        };
+
+        // optional.
+        // called when some plain-text message has been received.
+        connection.onMessage = (text) => {
+            appendItem(list, "|" + userName + "|[System] " + text);
+        };
+
+        // here we register a method with two arguments that can be called by the server.
+        connection.methods.receiveMessage = (userid, text) => {
+            //appendItem(list, userid + " said: " + text);
+            appendItem(list, userid + text);
+        };
+
+        // here we register a method that returns a value that can be called by the server.
+        // to have the server call this type "/math" in chat.
+        connection.methods.DoMath = (a, b) => {
+            if (a == 0 || b == 0) throw "E não posso ajudar você!";
+            //throw "I won't answer lol, you have your own processor."
+            return ['int', a + b];
+        }
+
+        // establish a connection to the server.
+        connection.connect();
+
+        var list = document.getElementById("messages");
+        var button = document.getElementById("sendButton");
+        button.addEventListener("click", function () {
+
+            var input = document.getElementById("textInput");
+            connection.invokeOnly("SendMessage", 'string', "|" + userName + "|" + input.value);
+
+            input.value = "";
+        });
+
+        function appendItem(list, message) {
+
+            var now = new Date();
+            var hora = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+
+            var item = document.createElement("li");
+
+            var userMessage = message.split('|')[1];
+            var message = message.split('|')[2];
+            var imageAvatar = "";
+            var classSmall = "";
+
+            if (userMessage == userName) {
+                item.className = "right clearfix";
+                imageAvatar = "http://placehold.it/50/FA6F57/fff&text=ME";
+            }
+            else {
+                item.className = "left clearfix";
+                imageAvatar = "http://placehold.it/50/55C1E7/fff&text=U";
+            }
+
+            if (message.toString().includes('[System]')) {
+                item.insertAdjacentHTML('beforeend', `<div class=''chat-body clearfix'>
+                                                                  <div class='header'>
+                                                                      <small class='pull-right text-muted'>
+                                                                            <span class='glyphicon glyphicon-time'></span>` + hora.toString() + `
+                                                                      </smal>
+                                                                  </div>
+                                                                  <p>`+ message + `</p>
+                                                              </div>`);
+            }
+            else {
+                item.insertAdjacentHTML('beforeend', `<span class='chat-img pull-left'>
+                                                                    <img src='`+ imageAvatar + `' alt'User Avatar' class='img-circle' />
+                                                              </span>
+                                                              <div class=''chat-body clearfix'>
+                                                                  <div class='header'>
+                                                                      <strong class='primary-font'>` + userMessage + `</strong>
+                                                                      <small class='pull-right text-muted'>
+                                                                            <span class='glyphicon glyphicon-time'></span>` + hora.toString() + `
+                                                                      </smal>
+                                                                  </div>
+                                                                  <p>`+ message + `</p>
+                                                              </div>`);
+            }
+            
+
+            list.appendChild(item);
+        };
+
+        function Exit() {
+            window.location.href = "/EnterChat.html";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWS.Tests", "CWS.Tests\CWS.Tests.csproj", "{B2C2B841-DDE3-4281-BCA8-46AC0EAE9EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWS.Domain.Shared", "CWS.Domain.Shared\CWS.Domain.Shared.csproj", "{BB95FCCC-B60C-4C48-A9B9-C0F63572649E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWS.Infra.Data", "CWS.Infra.Data\CWS.Infra.Data.csproj", "{1040F31C-3020-41D0-99AA-CDCEE67C977E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWS.ApplicationService", "CWS.ApplicationService\CWS.ApplicationService.csproj", "{11BA4F69-3050-4A8B-B21A-D25095A71267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWS.Web", "CWS.Web\CWS.Web.csproj", "{F851438F-AA66-454A-B9E1-B454E8D410E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketManager.Common", "WebSocketManager.Common\WebSocketManager.Common.csproj", "{D364D4F8-DB8E-46D2-A9BA-10D84D57207D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C2B841-DDE3-4281-BCA8-46AC0EAE9EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C2B841-DDE3-4281-BCA8-46AC0EAE9EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C2B841-DDE3-4281-BCA8-46AC0EAE9EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C2B841-DDE3-4281-BCA8-46AC0EAE9EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB95FCCC-B60C-4C48-A9B9-C0F63572649E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB95FCCC-B60C-4C48-A9B9-C0F63572649E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB95FCCC-B60C-4C48-A9B9-C0F63572649E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB95FCCC-B60C-4C48-A9B9-C0F63572649E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1040F31C-3020-41D0-99AA-CDCEE67C977E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1040F31C-3020-41D0-99AA-CDCEE67C977E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1040F31C-3020-41D0-99AA-CDCEE67C977E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1040F31C-3020-41D0-99AA-CDCEE67C977E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BA4F69-3050-4A8B-B21A-D25095A71267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BA4F69-3050-4A8B-B21A-D25095A71267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BA4F69-3050-4A8B-B21A-D25095A71267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BA4F69-3050-4A8B-B21A-D25095A71267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F851438F-AA66-454A-B9E1-B454E8D410E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F851438F-AA66-454A-B9E1-B454E8D410E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F851438F-AA66-454A-B9E1-B454E8D410E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F851438F-AA66-454A-B9E1-B454E8D410E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D364D4F8-DB8E-46D2-A9BA-10D84D57207D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D364D4F8-DB8E-46D2-A9BA-10D84D57207D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D364D4F8-DB8E-46D2-A9BA-10D84D57207D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D364D4F8-DB8E-46D2-A9BA-10D84D57207D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADC5D5E3-61F1-4954-AEF9-BBB21231C442}
+	EndGlobalSection
+EndGlobal

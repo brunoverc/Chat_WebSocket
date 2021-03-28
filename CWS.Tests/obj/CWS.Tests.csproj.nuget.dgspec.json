@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/CWS.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj",
+        "projectName": "CWS.ApplicationService",
+        "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj",
+        "packagesPath": "/Users/bruno.vercosa/.nuget/packages/",
+        "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/bruno.vercosa/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj": {
+                "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.WebSockets": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj",
+        "projectName": "CWS.Domain.Shared",
+        "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj",
+        "packagesPath": "/Users/bruno.vercosa/.nuget/packages/",
+        "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/bruno.vercosa/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/CWS.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/CWS.Tests.csproj",
+        "projectName": "CWS.Tests",
+        "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/CWS.Tests.csproj",
+        "packagesPath": "/Users/bruno.vercosa/.nuget/packages/",
+        "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/bruno.vercosa/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj": {
+                "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "System.Net.WebSockets": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

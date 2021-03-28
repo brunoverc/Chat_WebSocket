@@ -1,0 +1,12 @@
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/bin/Debug/netstandard2.1/CWS.Infra.Data.deps.json
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/bin/Debug/netstandard2.1/CWS.Infra.Data.dll
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/bin/Debug/netstandard2.1/CWS.Infra.Data.pdb
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/bin/Debug/netstandard2.1/CWS.Domain.Shared.dll
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/bin/Debug/netstandard2.1/CWS.Domain.Shared.pdb
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/obj/Debug/netstandard2.1/CWS.Infra.Data.csprojAssemblyReference.cache
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/obj/Debug/netstandard2.1/CWS.Infra.Data.AssemblyInfoInputs.cache
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/obj/Debug/netstandard2.1/CWS.Infra.Data.AssemblyInfo.cs
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/obj/Debug/netstandard2.1/CWS.Infra.Data.csproj.CoreCompileInputs.cache
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/obj/Debug/netstandard2.1/CWS.Infra.Data.csproj.CopyComplete
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/obj/Debug/netstandard2.1/CWS.Infra.Data.dll
+/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Infra.Data/obj/Debug/netstandard2.1/CWS.Infra.Data.pdb

@@ -40,7 +40,11 @@ Para iniciar o projeto de demostração basta rodar o projeto CWS.Web e acessar 
 
 http://localhost:65110/EnterChat.html
 
+![image](https://user-images.githubusercontent.com/69854207/112773424-6b5a0100-900c-11eb-9e1d-97c1d3388be8.png)
+
+
 Após isso basta inserir um nome de usuário, clicar em entrar e será redirecionado para a tela do Chat.
+
 Abra mais de uma instância com nomes de usuários diferentes para acompanhar o funcionamento da aplicação.
 
 

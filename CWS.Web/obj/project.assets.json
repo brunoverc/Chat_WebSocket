@@ -2198,11 +2198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Web/CWS.Web.csproj",
+      "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Web/CWS.Web.csproj",
       "projectName": "CWS.Web",
-      "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Web/CWS.Web.csproj",
+      "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Web/CWS.Web.csproj",
       "packagesPath": "/Users/bruno.vercosa/.nuget/packages/",
-      "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Web/obj/",
+      "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Web/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -2220,11 +2220,11 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj": {
-              "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj"
+            "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj": {
+              "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj"
             },
-            "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj": {
-              "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj"
+            "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj": {
+              "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj"
             }
           }
         }

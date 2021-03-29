@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mMadgiq+4GsigRxEgksmp+5iS69//RkKy21/gE6voQnqejYzz17O+rB07rGZKIDkMVp4dSCC7aLnCkfpyYNVew==",
+  "dgSpecHash": "cDJ6hGIWa2tRm7g/DNMdLyoHiV2FXqkxOorMFZ0Di233mDlrhiEzs7RZKIRWOWcrqx5oxDJb2R1Ev40hNNNtKQ==",
   "success": true,
-  "projectFilePath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj",
+  "projectFilePath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "/Users/bruno.vercosa/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xy+qRaB1oIIY/0+EJnJSYkBct7MmL1eBKzJHAsil02VyqMvXtW8jQyp98NfUPQmxBgAzXo9Le/o5hbc6JrITvw==",
+  "dgSpecHash": "4fp6jF6LV7dIj2RD1l4bvgML2fcYYHGIggZRo/m4K46CIFP9OHWz+rhZ83/0BJD6/sWIRIs/AhO/SETJktEu1g==",
   "success": true,
-  "projectFilePath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj",
+  "projectFilePath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj",
   "expectedPackageFiles": [
     "/Users/bruno.vercosa/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/Users/bruno.vercosa/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",

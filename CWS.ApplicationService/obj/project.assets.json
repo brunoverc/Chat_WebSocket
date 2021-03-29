@@ -703,11 +703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj",
+      "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj",
       "projectName": "CWS.ApplicationService",
-      "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj",
+      "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj",
       "packagesPath": "/Users/bruno.vercosa/.nuget/packages/",
-      "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/obj/",
+      "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.ApplicationService/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -725,8 +725,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj": {
-              "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj"
+            "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj": {
+              "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Domain.Shared/CWS.Domain.Shared.csproj"
             }
           }
         }

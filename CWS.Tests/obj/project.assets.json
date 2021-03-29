@@ -6956,11 +6956,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/CWS.Tests.csproj",
+      "projectUniqueName": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Tests/CWS.Tests.csproj",
       "projectName": "CWS.Tests",
-      "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/CWS.Tests.csproj",
+      "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Tests/CWS.Tests.csproj",
       "packagesPath": "/Users/bruno.vercosa/.nuget/packages/",
-      "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/obj/",
+      "outputPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -6978,8 +6978,8 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj": {
-              "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj"
+            "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj": {
+              "projectPath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.ApplicationService/CWS.ApplicationService.csproj"
             }
           }
         }

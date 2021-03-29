@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bpQJhkTRj3ScjVhRWXTMORRKTzPyfThEtcuRTq/ZKHfnbU0xJZA+vfvhP4BBfX6VIdq4c9LSkyI+bvb3dzrVA==",
+  "dgSpecHash": "Ks+7jtU0EzhQU6xK79/TSwHqZYfjD+tado0wWt/ycpsCWsbn08taxiJYn0iNJ/JtCVstufH9JVL1E/HOLXjm4g==",
   "success": true,
-  "projectFilePath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Tests/CWS.Tests.csproj",
+  "projectFilePath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Tests/CWS.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/bruno.vercosa/.nuget/packages/coverlet.collector/1.0.1/coverlet.collector.1.0.1.nupkg.sha512",
     "/Users/bruno.vercosa/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{F851438F-AA66-454A-B9E1-B454E8D410E9}|Default">
+  <MonoDevelop.Ide.ItemProperties.CWS.Web PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CWS.Tests/WebSocketConnectionManagerTests.cs">
+    <Files>
+      <File FileName="CWS.Domain.Shared/Networking/InvocationDescriptor.cs" Line="1" Column="1" />
+      <File FileName="CWS.Domain.Shared/Networking/InvocationResult.cs" Line="1" Column="1" />
+      <File FileName="CWS.Infra.Data/Connection.cs" Line="1" Column="1" />
+      <File FileName="CWS.ApplicationService/Middleware/WebSocketManagerMiddleware.cs" Line="1" Column="1" />
+      <File FileName="CWS.ApplicationService/WebSocketConnectionManager.cs" Line="1" Column="1" />
+      <File FileName="CWS.ApplicationService/WebSocketHandler.cs" Line="1" Column="1" />
+      <File FileName="CWS.Tests/WebSocketConnectionManagerTests.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChatWebSocket" expanded="True">
+            <Node name="CWS.ApplicationService" expanded="True">
+              <Node name="Middleware" expanded="True" />
+            </Node>
+            <Node name="CWS.Tests" expanded="True" />
+            <Node name="CWS.Web" expanded="True" selected="True">
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ChatWebSocket" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CWS.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

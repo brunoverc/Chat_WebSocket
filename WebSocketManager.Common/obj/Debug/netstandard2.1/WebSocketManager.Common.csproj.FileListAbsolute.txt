@@ -1,9 +1,0 @@
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/bin/Debug/netstandard2.1/WebSocketManager.Common.deps.json
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/bin/Debug/netstandard2.1/WebSocketManager.Common.dll
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/bin/Debug/netstandard2.1/WebSocketManager.Common.pdb
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/obj/Debug/netstandard2.1/WebSocketManager.Common.csprojAssemblyReference.cache
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/obj/Debug/netstandard2.1/WebSocketManager.Common.AssemblyInfoInputs.cache
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/obj/Debug/netstandard2.1/WebSocketManager.Common.AssemblyInfo.cs
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/obj/Debug/netstandard2.1/WebSocketManager.Common.csproj.CoreCompileInputs.cache
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/obj/Debug/netstandard2.1/WebSocketManager.Common.dll
-/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/WebSocketManager.Common/obj/Debug/netstandard2.1/WebSocketManager.Common.pdb

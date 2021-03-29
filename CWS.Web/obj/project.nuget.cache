@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p4xS18fWqCXlf2RqS+ELBnvjziADLF5Ge8xzQdc1sWpxSTQiE1lQpZkv4vBreMtYswHyuDdfD9mDEvoG9CYbXw==",
+  "dgSpecHash": "QzIdYFDAdytrM0XfWPqpe70agl6oe35SyuNqKDvOy+1Lozt/bGeQYZwXHqgblhqU+jYoeZ1znNGFHrTOWKdA6g==",
   "success": true,
-  "projectFilePath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/CWS.Web/CWS.Web.csproj",
+  "projectFilePath": "/Users/bruno.vercosa/Documents/GitHub/ChatWebSocket/Chat_WebSocket/CWS.Web/CWS.Web.csproj",
   "expectedPackageFiles": [
     "/Users/bruno.vercosa/.nuget/packages/microsoft.aspnetcore/2.2.0/microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "/Users/bruno.vercosa/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
